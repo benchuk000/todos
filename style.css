@@ -1,0 +1,35 @@
+.input-wrapper input{
+    width: 500px;
+    height: 50px;
+    margin-left: 450px;
+}
+::-webkit-input-placeholder{
+    text-align: center;
+    font-size: 20px;
+    color:whitesmoke;
+}
+header{
+    text-align: center;
+}
+
+.todo-list{
+    list-style: none;
+    
+}
+.todo-list__span{
+    text-decoration:line-through;
+    color: chartreuse;
+}
+.todo-wrapper{
+    margin-left: 410px;
+}
+.todo-footer{
+    display: flex;
+    margin-left:450px;
+}
+.delete-button{
+    display: none;
+}
+.delete-button--visible{
+    display: inline-block;
+}
